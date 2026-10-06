@@ -211,8 +211,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.1(@casl/ability@6.8.0)(react@19.2.6)
       '@haystackeditor/cli':
-        specifier: 0.25.0
-        version: 0.25.0(@types/node@24.10.11)
+        specifier: 0.25.1
+        version: 0.25.1(@types/node@24.10.11)
       '@hono-rate-limiter/redis':
         specifier: ^0.1.4
         version: 0.1.4(hono-rate-limiter@0.2.3(hono@4.13.7))
@@ -2760,8 +2760,8 @@ packages:
   '@formatjs/intl-localematcher@0.6.2':
     resolution: {integrity: sha512-XOMO2Hupl0wdd172Y06h6kLpBz6Dv+J4okPLl4LPtzbr8f66WbIoy4ev98EBuZ6ZK4h5ydTN6XneT4QVpD7cdA==}
 
-  '@haystackeditor/cli@0.25.0':
-    resolution: {integrity: sha512-x1293PKz5v03EuZmJia+fBuD9t2rS6MEPH4C+YYVf9B5NU5gp/wNtQ+sqpc+eVNCDBAx8r4fZToiji/b+q5kXQ==}
+  '@haystackeditor/cli@0.25.1':
+    resolution: {integrity: sha512-qV/Ep6wndA28Q3fc5ucurK86FhsEfsRBPtRmLK+/8Kct0s0c+lM8F3kv2DzunfC7aFqu8KAaqFO32VCSl3Uj+w==}
     engines: {node: '>=22.18'}
     hasBin: true
 
@@ -15468,7 +15468,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@haystackeditor/cli@0.25.0(@types/node@24.10.11)':
+  '@haystackeditor/cli@0.25.1(@types/node@24.10.11)':
     dependencies:
       '@aws-sdk/client-ssm': 3.987.0
       '@babel/core': 8.0.6

@@ -7,6 +7,7 @@ import { domAnimation, LazyMotion } from "motion/react";
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import type React from "react";
 import { Suspense } from "react";
 import { PostHogSessionInit } from "@/app/[locale]/components/posthog-init";
@@ -101,6 +102,13 @@ export default async function Root({
             </InstancePolicyProvider>
           </FeatureFlagsProvider>
         </ThemeProvider>
+        <Script
+          src="/_haystack/capture.cb4204fcc997d8e8.js"
+          integrity="sha384-p7a3hB2NBNy8PMougkBUYgsUlY7elnNN+q66psTFgAEr77+QcCtsANjL5M6qLVbs"
+          data-key="hc_xnfo5b7ljdagaqi7cbr6ige3f6"
+          data-consent="not-required"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
