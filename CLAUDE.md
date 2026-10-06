@@ -310,3 +310,20 @@ Reads filtered or grouped by the viewer's present ("upcoming", "past", agenda gr
   - **Emails** — `TransWithoutContext` only, with `t` and `i18n` from `createEmailI18n(locale)` (`packages/emails/src/i18n.ts`). Emails are sent from server components, where React context is unavailable, and each render builds its own locale-bound instance so a concurrent fan-out can't cross languages. Only a Next build catches a violation.
   - **`app/global-error.tsx`** — neither. It renders outside the `[locale]` segment that mounts `I18nProvider`, so there is no locale and no `t`. Copy there is hardcoded English.
   - **Everywhere else** — either import is correct. `I18nProvider` is mounted in `app/[locale]/layout.tsx`, the root layout, so every page (public poll pages included) is inside it. A server component *may* render the `"use client"` `Trans` from `@/i18n/client`: React serializes it as a client reference and the browser renders it against the per-tab instance, so there is no cross-request language bleed and no extra bundle weight (`react-i18next` is already loaded app-wide). Prefer `TransWithoutContext` in server components to keep static copy out of hydration, but don't make an otherwise-static page `async` just to do it — and don't file the client import as a bug.
+
+<!-- haystack:begin -->
+## Haystack
+
+After you change this app's code, or when the user asks you to check a change, run `haystack verify` before you
+call the work done. It runs the app with and without the change, explores it, and reports where the change shows up
+and what broke. It changes nothing, so run it without asking.
+
+- It often takes 10 to 15 minutes: give it your longest timeout or run it in the background, and do not pipe it
+  through `tail` or `head`, which hide its progress. If your command times out, run it again: it picks up the same crawl.
+- Fix each bug it reports that your change caused, then run `haystack verify` again.
+- If it says onboarding needs an answer, ask the user that question and file their choice with
+  `haystack verify answer <question-id> <choice>`.
+- Read its short report. `--json` prints the full result, often hundreds of kilobytes, for scripts;
+  `haystack verify --help` explains the output and exit codes.
+- If `haystack` is not installed, run each command as `npx -y @haystackeditor/cli@latest <command>`.
+<!-- haystack:end -->

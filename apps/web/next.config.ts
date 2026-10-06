@@ -4,6 +4,7 @@
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/
 
 import path from "node:path";
+import { withHaystackTelemetry } from "@haystackeditor/cli/next";
 import createBundleAnalyzer from "@next/bundle-analyzer";
 import { withSentryConfig } from "@sentry/nextjs";
 import type { NextConfig } from "next";
@@ -195,6 +196,8 @@ const withBundleAnalyzerConfig = withBundleAnalyzer(nextConfig);
 
 // Make sure adding Sentry options is the last code to run before exporting, to
 // ensure that your source maps include changes from all other Webpack plugins
-export default process.env.NEXT_PUBLIC_SELF_HOSTED === "true"
-  ? withBundleAnalyzerConfig
-  : withSentryConfig(withBundleAnalyzerConfig, sentryWebpackPluginOptions);
+export default withHaystackTelemetry(
+  process.env.NEXT_PUBLIC_SELF_HOSTED === "true"
+    ? withBundleAnalyzerConfig
+    : withSentryConfig(withBundleAnalyzerConfig, sentryWebpackPluginOptions),
+);

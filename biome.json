@@ -1,6 +1,9 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.3.14/schema.json",
   "root": true,
+  "files": {
+    "includes": ["**", "!!**/.haystack/_haystack"]
+  },
   "plugins": [
     "./biome-plugins/use-icon-button-label.grit",
     "./biome-plugins/no-raw-datetime-formatting.grit"

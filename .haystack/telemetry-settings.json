@@ -1,0 +1,585 @@
+{
+  "version": 1,
+  "settings": [
+    {
+      "sourcePath": "apps/landing/src/app/[locale]/(main)/press-kit/asset-card.tsx",
+      "qualifiedName": "AssetCard",
+      "label": "parameter:dark",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/landing/src/app/[locale]/opengraph-image.tsx",
+      "qualifiedName": "loadCjkFont",
+      "label": "parameter:weight",
+      "domain": [400, 700]
+    },
+    {
+      "sourcePath": "apps/landing/src/components/home/hero-demo/demo-data.ts",
+      "qualifiedName": "getDemoDays",
+      "label": "parameter:spacing",
+      "domain": ["weekly", "consecutive"]
+    },
+    {
+      "sourcePath": "apps/landing/src/components/home/hero-demo/vote-count.tsx",
+      "qualifiedName": "VoteCount",
+      "label": "parameter:highlight",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/landing/src/components/home/hero-demo/vote-icon.tsx",
+      "qualifiedName": "VoteIcon",
+      "label": "parameter:vote",
+      "domain": ["yes", "ifNeedBe", "no"]
+    },
+    {
+      "sourcePath": "apps/landing/src/components/home/hero.tsx",
+      "qualifiedName": "Hero",
+      "label": "parameter:centered",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/landing/src/components/home/hero.tsx",
+      "qualifiedName": "Hero",
+      "label": "parameter:wideDescription",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/app/[locale]/(space)/(dashboard)/dashboard-home.tsx",
+      "qualifiedName": "DashboardHome",
+      "label": "parameter:canManageBilling",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/app/[locale]/(space)/(dashboard)/dashboard-home.tsx",
+      "qualifiedName": "DashboardHome",
+      "label": "parameter:canManageMembers",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/app/[locale]/(space)/(dashboard)/dashboard-home.tsx",
+      "qualifiedName": "DashboardHome",
+      "label": "parameter:hasNoAccounts",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/app/[locale]/control-panel/users/page.tsx",
+      "qualifiedName": "loadData",
+      "label": "parameter:role",
+      "domain": ["admin", "user"]
+    },
+    {
+      "sourcePath": "apps/web/src/app/[locale]/e/[id]/components/rsvp-notice.tsx",
+      "qualifiedName": "RsvpNotice",
+      "label": "parameter:variant",
+      "domain": ["canceled", "ended", "inProgress", "full"]
+    },
+    {
+      "sourcePath": "apps/web/src/app/[locale]/invite/[urlId]/vote/vote-page.tsx",
+      "qualifiedName": "VotePage",
+      "label": "parameter:canManage",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/app/[locale]/invite/[urlId]/vote/vote-page.tsx",
+      "qualifiedName": "VotePage",
+      "label": "parameter:hideAttribution",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/app/[locale]/invite/[urlId]/vote/vote-page.tsx",
+      "qualifiedName": "VotePage",
+      "label": "parameter:spaceBrandingAllowed",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/app/api/v1/[...route]/route.ts",
+      "qualifiedName": "toOptionResponse",
+      "label": "parameter:kind",
+      "domain": ["date", "time"]
+    },
+    {
+      "sourcePath": "apps/web/src/app/api/v1/[...route]/route.ts",
+      "qualifiedName": "toParticipantResponse",
+      "label": "parameter:kind",
+      "domain": ["date", "time"]
+    },
+    {
+      "sourcePath": "apps/web/src/components/empty-state.tsx",
+      "qualifiedName": "EmptyStateTitle",
+      "label": "parameter:Component",
+      "domain": ["p", "h1", "h2"]
+    },
+    {
+      "sourcePath": "apps/web/src/components/time-format-picker.tsx",
+      "qualifiedName": "TimeFormatPicker",
+      "label": "parameter:disabled",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/components/time-zone-picker/time-zone-select.tsx",
+      "qualifiedName": "TimeZoneSelect",
+      "label": "parameter:disabled",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/billing/mutations.ts",
+      "qualifiedName": "setUserSubscriptionRenewals",
+      "label": "parameter:cancelAtPeriodEnd",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/billing/utils.ts",
+      "qualifiedName": "resolvePriceSet",
+      "label": "parameter:earlySupporter",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/instance-policy/utils.ts",
+      "qualifiedName": "deriveInstancePolicy",
+      "label": "parameter:isSelfHosted",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/instance-policy/utils.ts",
+      "qualifiedName": "deriveInstancePolicy",
+      "label": "parameter:whiteLabelAddon",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/moderation/mutations.ts",
+      "qualifiedName": "moderateContentWithAI",
+      "label": "binding:verdict",
+      "domain": ["flagged", "safe"]
+    },
+    {
+      "sourcePath": "apps/web/src/features/notifications/data.ts",
+      "qualifiedName": "getNotificationRecipient",
+      "label": "parameter:type",
+      "domain": ["poll.response.submitted", "poll.comment.added"]
+    },
+    {
+      "sourcePath": "apps/web/src/features/notifications/mutations.ts",
+      "qualifiedName": "updateNotificationPreference",
+      "label": "parameter:enabled",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/notifications/mutations.ts",
+      "qualifiedName": "updateNotificationPreference",
+      "label": "parameter:eventType",
+      "domain": ["poll.response.submitted", "poll.comment.added"]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/comment/mutations.ts",
+      "qualifiedName": "addComment",
+      "label": "parameter:isGuest",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/components/desktop-poll/participant-row-form.tsx",
+      "qualifiedName": "ParticipantRowForm",
+      "label": "parameter:isNew",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/components/participant-dropdown.tsx",
+      "qualifiedName": "DeleteParticipantModal",
+      "label": "parameter:open",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/components/participant-dropdown.tsx",
+      "qualifiedName": "ParticipantDropdown",
+      "label": "parameter:align",
+      "domain": ["start", "end"]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/components/participant-dropdown.tsx",
+      "qualifiedName": "ParticipantDropdown",
+      "label": "parameter:disabled",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/components/poll-status-icon.tsx",
+      "qualifiedName": "PollStatusIcon",
+      "label": "parameter:showTooltip",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/constants.ts",
+      "qualifiedName": "getVoteTypes",
+      "label": "parameter:allowTentativeVotes",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/invite/components/event-sidebar.tsx",
+      "qualifiedName": "EventSidebar",
+      "label": "parameter:hideAttribution",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/invite/components/event-sidebar.tsx",
+      "qualifiedName": "EventSidebar",
+      "label": "parameter:spaceBrandingAllowed",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/invite/components/vote-legend.tsx",
+      "qualifiedName": "VoteLegend",
+      "label": "parameter:allowTentativeVotes",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/mutations.ts",
+      "qualifiedName": "createPoll",
+      "label": "parameter:allowTentativeVotes",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/mutations.ts",
+      "qualifiedName": "createPoll",
+      "label": "parameter:disableComments",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/mutations.ts",
+      "qualifiedName": "createPoll",
+      "label": "parameter:hideParticipants",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/mutations.ts",
+      "qualifiedName": "createPoll",
+      "label": "parameter:hideScores",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/mutations.ts",
+      "qualifiedName": "setPollMuted",
+      "label": "parameter:muted",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/utils.ts",
+      "qualifiedName": "filterCommentsForViewer",
+      "label": "parameter:hideParticipants",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/utils.ts",
+      "qualifiedName": "maskParticipantsForViewer",
+      "label": "parameter:hideParticipants",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/utils.ts",
+      "qualifiedName": "summarizeNotifySelection",
+      "label": "binding:bucket",
+      "domain": ["yes", "if_need_be", "no", "no_response"]
+    },
+    {
+      "sourcePath": "apps/web/src/features/poll/utils.ts",
+      "qualifiedName": "toAvailabilitySpans",
+      "label": "parameter:kind",
+      "domain": ["date", "time"]
+    },
+    {
+      "sourcePath": "apps/web/src/features/review-request/utils.ts",
+      "qualifiedName": "pickReviewSite",
+      "label": "parameter:businessSite",
+      "domain": ["capterra", "g2"]
+    },
+    {
+      "sourcePath": "apps/web/src/features/scheduled-event/actions.ts",
+      "qualifiedName": "sendRsvpConfirmation",
+      "label": "parameter:status",
+      "domain": ["accepted", "declined"]
+    },
+    {
+      "sourcePath": "apps/web/src/features/scheduled-event/utils.ts",
+      "qualifiedName": "formatEventDateTime",
+      "label": "parameter:allDay",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/scheduled-event/utils.ts",
+      "qualifiedName": "scheduledEventWhere",
+      "label": "parameter:past",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/space/mutations.ts",
+      "qualifiedName": "updateSpaceHideAttribution",
+      "label": "parameter:hideAttribution",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/space/mutations.ts",
+      "qualifiedName": "updateSpaceShared",
+      "label": "parameter:shared",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/space/mutations.ts",
+      "qualifiedName": "updateSpaceShowBranding",
+      "label": "parameter:showBranding",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/space/utils.ts",
+      "qualifiedName": "isSpaceAttributionHidden",
+      "label": "parameter:hideAttribution",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/space/utils.ts",
+      "qualifiedName": "isSpaceAttributionHidden",
+      "label": "parameter:spaceAttributionConfigurable",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/space/utils.ts",
+      "qualifiedName": "isSpaceBrandingActive",
+      "label": "parameter:showBranding",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/space/utils.ts",
+      "qualifiedName": "isSpaceBrandingActive",
+      "label": "parameter:spaceBrandingAllowed",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/user/mutations.ts",
+      "qualifiedName": "updateUserRole",
+      "label": "parameter:role",
+      "domain": ["user", "admin"]
+    },
+    {
+      "sourcePath": "apps/web/src/features/webhook/mutations.ts",
+      "qualifiedName": "authorizeWebhook",
+      "label": "parameter:action",
+      "domain": ["update", "delete"]
+    },
+    {
+      "sourcePath": "apps/web/src/features/webhook/mutations.ts",
+      "qualifiedName": "setWebhookEnabled",
+      "label": "parameter:enabled",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/webhook/service.ts",
+      "qualifiedName": "getDispatcher",
+      "label": "parameter:allowPrivateTargets",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/webhook/service.ts",
+      "qualifiedName": "parseTarget",
+      "label": "parameter:allowPrivateTargets",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/webhook/utils.ts",
+      "qualifiedName": "getWebhookHealth",
+      "label": "parameter:enabled",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/features/webhook/utils.ts",
+      "qualifiedName": "toTimeRange",
+      "label": "parameter:kind",
+      "domain": ["date", "time"]
+    },
+    {
+      "sourcePath": "apps/web/src/lib/datetime/format.ts",
+      "qualifiedName": "getCachedIntlDateFormatter",
+      "label": "parameter:preset",
+      "domain": [
+        "date",
+        "dateLong",
+        "dateFull",
+        "weekday",
+        "weekdayMonthDay",
+        "monthYear",
+        "monthDay",
+        "weekdayDay",
+        "weekdayMonthDayShort",
+        "year",
+        "day",
+        "time",
+        "datetime"
+      ]
+    },
+    {
+      "sourcePath": "apps/web/src/lib/datetime/format.ts",
+      "qualifiedName": "getCachedIntlDateFormatter",
+      "label": "parameter:showTimeZone",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/lib/datetime/format.ts",
+      "qualifiedName": "presetOptions",
+      "label": "parameter:preset",
+      "domain": [
+        "date",
+        "dateLong",
+        "dateFull",
+        "weekday",
+        "weekdayMonthDay",
+        "monthYear",
+        "monthDay",
+        "weekdayDay",
+        "weekdayMonthDayShort",
+        "year",
+        "day",
+        "time",
+        "datetime"
+      ]
+    },
+    {
+      "sourcePath": "apps/web/src/lib/utils/ics.ts",
+      "qualifiedName": "createIcsEvent",
+      "label": "parameter:allDay",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/src/lib/utils/ics.ts",
+      "qualifiedName": "createIcsEvent",
+      "label": "parameter:method",
+      "domain": ["request", "publish", "cancel"]
+    },
+    {
+      "sourcePath": "apps/web/src/trpc/trpc.ts",
+      "qualifiedName": "createRateLimitMiddleware",
+      "label": "parameter:duration",
+      "domain": ["1 m", "1 h"]
+    },
+    {
+      "sourcePath": "apps/web/tests/new-poll-page.ts",
+      "qualifiedName": "NewPollPage.create",
+      "label": "parameter:allDay",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/tests/new-poll-page.ts",
+      "qualifiedName": "NewPollPage.create",
+      "label": "parameter:enableComments",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/tests/test-utils.ts",
+      "qualifiedName": "createTestPoll",
+      "label": "parameter:hasFutureOptions",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/tests/test-utils.ts",
+      "qualifiedName": "createUserInDb",
+      "label": "parameter:isAnonymous",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "apps/web/tests/test-utils.ts",
+      "qualifiedName": "fromNow",
+      "label": "parameter:startOfHour",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "packages/billing/src/scripts/reprice-pro.ts",
+      "qualifiedName": "findReplacementFor",
+      "label": "parameter:interval",
+      "domain": ["month", "year"]
+    },
+    {
+      "sourcePath": "packages/billing/src/scripts/reprice-pro.ts",
+      "qualifiedName": "reconcileInterval",
+      "label": "parameter:apply",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "packages/emails/src/templates/event-rsvp-confirmation.tsx",
+      "qualifiedName": "EventRsvpConfirmationEmail",
+      "label": "parameter:response",
+      "domain": ["accepted", "declined"]
+    },
+    {
+      "sourcePath": "packages/emails/src/templates/finalized-participant.tsx",
+      "qualifiedName": "FinalizeParticipantEmail",
+      "label": "parameter:vote",
+      "domain": ["yes", "ifNeedBe", "no"]
+    },
+    {
+      "sourcePath": "packages/emails/src/templates/new-participant.tsx",
+      "qualifiedName": "NewParticipantEmail",
+      "label": "parameter:canReply",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "packages/posthog/src/scripts/backfill-space-type.ts",
+      "qualifiedName": "apiRequest",
+      "label": "parameter:method",
+      "domain": ["GET", "POST"]
+    },
+    {
+      "sourcePath": "packages/posthog/src/scripts/purge-guest-profiles.ts",
+      "qualifiedName": "apiRequest",
+      "label": "parameter:method",
+      "domain": ["GET", "POST"]
+    },
+    {
+      "sourcePath": "packages/ui/src/event-calendar/event-calendar-lib.tsx",
+      "qualifiedName": "getViewDateRange",
+      "label": "parameter:view",
+      "domain": ["month", "week", "day", "days", "agenda", "resource"]
+    },
+    {
+      "sourcePath": "packages/ui/src/event-calendar/event-calendar-lib.tsx",
+      "qualifiedName": "stepDate",
+      "label": "parameter:direction",
+      "domain": [1, -1]
+    },
+    {
+      "sourcePath": "packages/ui/src/event-calendar/event-calendar-lib.tsx",
+      "qualifiedName": "stepDate",
+      "label": "parameter:view",
+      "domain": ["month", "week", "day", "days", "agenda", "resource"]
+    },
+    {
+      "sourcePath": "packages/ui/src/event-calendar/event-calendar-recurrence.tsx",
+      "qualifiedName": "(anon)",
+      "label": "binding:day",
+      "domain": ["MO", "TU", "WE", "TH", "FR", "SA", "SU"]
+    },
+    {
+      "sourcePath": "packages/ui/src/event-calendar/event-calendar-recurrence.tsx",
+      "qualifiedName": "periodEdge",
+      "label": "parameter:edge",
+      "domain": ["first", "last"]
+    },
+    {
+      "sourcePath": "packages/ui/src/event-calendar/icon-stack.tsx",
+      "qualifiedName": "IconStackLayer",
+      "label": "parameter:active",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "packages/ui/src/input.tsx",
+      "qualifiedName": "Input",
+      "label": "parameter:large",
+      "domain": [true, false]
+    },
+    {
+      "sourcePath": "packages/ui/src/success-check.tsx",
+      "qualifiedName": "SuccessCheck",
+      "label": "parameter:state",
+      "domain": ["in", "out"]
+    },
+    {
+      "sourcePath": "packages/ui/src/vote-icon.tsx",
+      "qualifiedName": "VoteIcon",
+      "label": "parameter:type",
+      "domain": ["yes", "ifNeedBe", "no", "pending"]
+    }
+  ]
+}

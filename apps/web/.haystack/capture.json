@@ -1,0 +1,13 @@
+{
+  "version": "capture-v1",
+  "key": "hc_xnfo5b7ljdagaqi7cbr6ige3f6",
+  "repositoryId": "github.com:1407629247",
+  "applicationId": "3b4e3efd29cd131b",
+  "adapter": null,
+  "app": "apps/web",
+  "origins": [
+    "https://thought-discover-exterior-essentially.trycloudflare.com"
+  ],
+  "consent": "not-required",
+  "publish": []
+}
